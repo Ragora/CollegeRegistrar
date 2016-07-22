@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="58feb20e447b49d5aeb9bd607ac4db31" Name="Diagram1">
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Address" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Contact" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Course" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Faculty" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.FacultyMajor" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.FacultySchedule" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Major" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Requirement" Width="1.5" PointX="1.5" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Resource" Width="1.5" PointX="3.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Room" Width="1.5" PointX="6" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Schedule" Width="1.5" PointX="6" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.Student" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.StudentMajor" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.StudentSchedule" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.sysdiagram" Width="1.5" PointX="7.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityBoulevardModel.UserInfo" Width="1.5" PointX="5.25" PointY="11.625" IsExpanded="true" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Student__Address__0F2D40CE" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Faculty__Contact__2057CCD0" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Student__Contact__10216507" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Course__MajorID__5C6CB6D7" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Course__Requirem__5B78929E" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Schedule__Course__5D60DB10" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__FacultyMa__Facul__6ABAD62E" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__FacultySc__Facul__27F8EE98" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__UserInfo__Facult__6501FCD8" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__FacultyMa__Major__6BAEFA67" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__FacultySc__RoomI__7814D14C" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK_FacultySchedule" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__StudentMa__Major__67DE6983" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__Rooms__ResourceI__56B3DD81" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__StudentSc__RoomI__5F492382" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__StudentMa__Stude__66EA454A" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__StudentSc__Stude__12FDD1B2" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityBoulevardModel.FK__UserInfo__Studen__640DD89F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
